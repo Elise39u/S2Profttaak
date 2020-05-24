@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.1145
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{21F84B61-CE19-4DB0-A735-9812A507DA95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalLayer", "DalLayer\DalLayer.csproj", "{59C32CBB-5161-4EC9-9F4D-FE8F5A861E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataMode\DataModel.csproj", "{ADA5055F-8ABD-439F-A653-CEE6FED92E06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{21F84B61-CE19-4DB0-A735-9812A507DA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21F84B61-CE19-4DB0-A735-9812A507DA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21F84B61-CE19-4DB0-A735-9812A507DA95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C32CBB-5161-4EC9-9F4D-FE8F5A861E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C32CBB-5161-4EC9-9F4D-FE8F5A861E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C32CBB-5161-4EC9-9F4D-FE8F5A861E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C32CBB-5161-4EC9-9F4D-FE8F5A861E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA5055F-8ABD-439F-A653-CEE6FED92E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA5055F-8ABD-439F-A653-CEE6FED92E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA5055F-8ABD-439F-A653-CEE6FED92E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA5055F-8ABD-439F-A653-CEE6FED92E06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
