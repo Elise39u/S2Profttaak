@@ -46,8 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DalLayer\DalLayer.csproj">
-      <Project>{59C32CBB-5161-4EC9-9F4D-FE8F5A861E86}</Project>
+      <Project>{59c32cbb-5161-4ec9-9f4d-fe8f5a861e86}</Project>
       <Name>DalLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataMode\DataModel.csproj">
+      <Project>{ada5055f-8abd-439f-a653-cee6fed92e06}</Project>
+      <Name>DataModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
