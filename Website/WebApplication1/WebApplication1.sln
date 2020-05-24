@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.1145
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{21F84B61-CE19-4DB0-A735-9812A507DA95}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C22AC81-DABB-465B-AB6C-175B51778357} = {7C22AC81-DABB-465B-AB6C-175B51778357}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalLayer", "DalLayer\DalLayer.csproj", "{59C32CBB-5161-4EC9-9F4D-FE8F5A861E86}"
 EndProject

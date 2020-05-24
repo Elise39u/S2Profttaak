@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LogicLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,6 +10,8 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
+        public UserLogic UserLogic { get; set; } = new UserLogic();
+
         public ActionResult Index()
         {
             return View();
@@ -23,7 +26,17 @@ namespace WebApplication1.Controllers
                 string userName = userViewModel.Username;
                 string passWord = userViewModel.Password;
 
-                return View("Start");
+                string getUser = UserLogic.DoLogin(userName, passWord);
+
+                if(getUser == "User found in database")
+                {
+                    return View("Start");
+
+                }
+                else
+                {
+                    return View("Index");
+                }
             }
             else
             {

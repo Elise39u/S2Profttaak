@@ -1,0 +1,5 @@
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\LogicLayer.dll
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\LogicLayer.pdb
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.csproj.CoreCompileInputs.cache
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.dll
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.pdb
