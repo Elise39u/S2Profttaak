@@ -1,30 +1,47 @@
-﻿using System;
+﻿using LogicLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
+        public UserLogic UserLogic { get; set; } = new UserLogic();
+
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult About()
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CheckUser(UserViewModel userViewModel)
         {
-            ViewBag.Message = "Your application description page.";
+            if (ModelState.IsValid && userViewModel.Username != null && userViewModel.Password != null)
+            {
+                string userName = userViewModel.Username;
+                string passWord = userViewModel.Password;
 
-            return View();
-        }
+                string getUser = UserLogic.DoLogin(userName, passWord);
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
+                if(getUser == "User found in database")
+                {
+                    return View("Start");
 
-            return View();
+                }
+                else
+                {
+                    return View("Index");
+                }
+            }
+            else
+            {
+                return View("Index");
+            }
         }
     }
 }
