@@ -1,0 +1,5 @@
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\DataMode\bin\Debug\DataMode.dll
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\DataMode\bin\Debug\DataMode.pdb
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\DataMode\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\DataMode\obj\Debug\DataMode.dll
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\DataMode\obj\Debug\DataMode.pdb

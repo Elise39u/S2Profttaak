@@ -11,6 +11,27 @@ namespace DalLayer
     public class UserDal
     {
         private readonly Dall DALAcces = new Dall();
+
+        public string CheckIfUserExists(string username, string password)
+        {
+            DALAcces.conn.Open();
+            string query = "Select * FROM user WHERE username = @username AND password = @password";
+
+            MySqlCommand command = new MySqlCommand(query, DALAcces.conn);
+            command.Parameters.Add(new MySqlParameter("@username", username));
+            command.Parameters.Add(new MySqlParameter("@username", password));
+
+            MySqlDataReader reader = command.ExecuteReader();
+            if(reader.HasRows == true)
+            {
+                return "User found in database";
+            }
+            else
+            {
+                return "User not found in database";
+            }
+        }
+
         public UserModel GetUser(UserModel user)
         {
             DALAcces.conn.Open();
@@ -30,6 +51,7 @@ namespace DalLayer
             DALAcces.conn.Close();
             return data;
         }
+
         public bool RegisterUser(UserModel user)
         {
             bool succesfull = false;
