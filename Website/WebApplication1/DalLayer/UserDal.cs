@@ -28,7 +28,7 @@ namespace DalLayer
             }
             else
             {
-                return "User not found in database";
+                return "User not found in database"; 
             }
         }
 
@@ -52,15 +52,15 @@ namespace DalLayer
             return data;
         }
 
-        public bool RegisterUser(UserModel user)
+        public bool RegisterUser(string username, string password)
         {
             bool succesfull = false;
             string query = "INSERT INTO User(username, password) " +
                            "VALUES (@username, @password)";
             DALAcces.conn.Open();
             MySqlCommand command = new MySqlCommand(query, DALAcces.conn);
-            command.Parameters.Add(new MySqlParameter("@username", user.Username));
-            command.Parameters.Add(new MySqlParameter("@password", user.Password));
+            command.Parameters.Add(new MySqlParameter("@username", username));
+            command.Parameters.Add(new MySqlParameter("@password", password));
         
             try
             {

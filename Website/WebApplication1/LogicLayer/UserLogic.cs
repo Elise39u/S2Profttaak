@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DalLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,19 +9,26 @@ namespace LogicLayer
 {
     public class UserLogic
     {
-        private readonly UserLogic dal = new UserLogic();
-        public bool LoginUser(string username, string password)
+        private readonly UserDal  dal = new UserDal();
+     
+        public string DoLogin(string username, string password)
         {
-           
-            bool succesful = false;
-            if (dal.LoginUser()) 
-
+            string getUser = dal.CheckIfUserExists(username, password);
+            return getUser;
+           // je kan er een bool van maken
         }
-
-        public bool RegisterUser()
+        public bool RegisterUser(string username, string password, string password2)
         {
             bool succesful = false;
-
+            if( password == password2)
+            {
+                if (dal.RegisterUser(username, password) == true)
+                {
+                    succesful = true;
+                }
+            }
+            return succesful;
+            //oke klaar
         }
     }
 }
