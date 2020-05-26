@@ -2,6 +2,7 @@
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,11 +18,11 @@ namespace DalLayer
             DALAcces.conn.Open();
             string query = "Select * FROM TowerUser WHERE username = @username AND password = @password";
 
-            MySqlCommand command = new MySqlCommand(query, DALAcces.conn);
-            command.Parameters.Add(new MySqlParameter("@username", username));
-            command.Parameters.Add(new MySqlParameter("@username", password));
+            SqlCommand command = new SqlCommand(query, DALAcces.conn);
+            command.Parameters.Add(new SqlParameter("@username", username));
+            command.Parameters.Add(new SqlParameter("@password", password));
 
-            MySqlDataReader reader = command.ExecuteReader();
+            SqlDataReader reader = command.ExecuteReader();
             if(reader.HasRows == true)
             {
                 return "User found in database";
@@ -38,10 +39,10 @@ namespace DalLayer
             UserModel data = new UserModel();
             string query = "Select * FROM TowerUser WHERE username = @username";
 
-            MySqlCommand command = new MySqlCommand(query, DALAcces.conn);
-            command.Parameters.Add(new MySqlParameter("@username", user.Username));
+            SqlCommand command = new SqlCommand(query, DALAcces.conn);
+            command.Parameters.Add(new SqlParameter("@username", user.Username));
 
-            MySqlDataReader reader = command.ExecuteReader();
+            SqlDataReader reader = command.ExecuteReader();
             while (reader.Read())
             {
                 data.Username = reader.GetString(1);
@@ -58,9 +59,9 @@ namespace DalLayer
             string query = "INSERT INTO TowerUser(username, password) " +
                            "VALUES (@username, @password)";
             DALAcces.conn.Open();
-            MySqlCommand command = new MySqlCommand(query, DALAcces.conn);
-            command.Parameters.Add(new MySqlParameter("@username", username));
-            command.Parameters.Add(new MySqlParameter("@password", password));
+            SqlCommand command = new SqlCommand(query, DALAcces.conn);
+            command.Parameters.Add(new SqlParameter("@username", username));
+            command.Parameters.Add(new SqlParameter("@password", password));
         
             try
             {
