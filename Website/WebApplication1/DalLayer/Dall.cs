@@ -13,7 +13,7 @@ namespace DalLayer
         public MySqlConnection conn;
         public Dall()
         {
-            conn = new MySqlConnection("server=studmysql01.fhict.local;Uid=dbi419727;Database=dbi419727;pwd=Testing;");
+            conn = new MySqlConnection("Data Source=mssql.fhict.local;Initial Catalog=dbi403879;Persist Security Info=True;User ID=dbi403879;Password=BigFish;");
         }
     }
 }
