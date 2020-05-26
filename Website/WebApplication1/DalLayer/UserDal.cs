@@ -65,7 +65,6 @@ namespace DalLayer
         
             try
             {
-                command.ExecuteNonQuery();
                 if (command.ExecuteNonQuery().Equals(1))
                 {
                     DALAcces.conn.Close();
