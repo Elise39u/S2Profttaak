@@ -17,6 +17,7 @@ namespace LogicLayer
             return getUser;
            // je kan er een bool van maken
         }
+
         public bool RegisterUser(string username, string password, string password2)
         {
             bool succesful = false;

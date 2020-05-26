@@ -10,10 +10,10 @@ namespace DalLayer
 {
     public class Dall
     {
-        public MySqlConnection conn;
+        public SqlConnection conn;
         public Dall()
         {
-            conn = new MySqlConnection("Data Source=mssql.fhict.local;Initial Catalog=dbi403879;Persist Security Info=True;User ID=dbi403879;Password=BigFish;");
+            conn = new SqlConnection("Data Source=mssql.fhict.local;Initial Catalog=dbi403879;Persist Security Info=True;User ID=dbi403879;Password=BigFish;");
         }
     }
 }
