@@ -3,13 +3,15 @@
 }
 
 <div class="row">
-    <form method="post" action="~/Home/CheckUser">
-        <label> Username: </label><br />
-        <input name="Username" type="text" /> <br /><br />
-        <label> Password: </label><br />
-        <input type="password" name="Password" /><br />
-        <input type="submit" name="submit" value="submit" />
-        <button> Register </button>
-        @Html.AntiForgeryToken()
-    </form>
+    <div class="formdiv">
+        <form method="post" action="~/Home/CheckUser">
+            <label> Username: </label><br />
+            <input name="Username" type="text" /> <br /><br />
+            <label> Password: </label><br />
+            <input type="password" name="Password" /><br />
+            <input type="submit" name="submit" value="submit" />
+            <button> Register </button>
+            @Html.AntiForgeryToken()
+        </form>
+    </div>
 </div>
