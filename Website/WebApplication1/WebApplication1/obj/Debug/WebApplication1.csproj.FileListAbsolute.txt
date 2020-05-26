@@ -124,6 +124,7 @@ D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\LogicLayer.dll
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
@@ -135,6 +136,9 @@ D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\WebGrease.dll
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\DalLayer.dll
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\DataMode.dll
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\LogicLayer.pdb
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
@@ -145,6 +149,10 @@ D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\DalLayer.pdb
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\DalLayer.dll.config
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\bin\DataMode.pdb
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
