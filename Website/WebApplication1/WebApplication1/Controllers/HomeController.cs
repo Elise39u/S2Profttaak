@@ -48,6 +48,7 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public  ActionResult Register(string username, string password, string password2)
         {
