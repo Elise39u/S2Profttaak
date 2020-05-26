@@ -10,3 +10,15 @@ D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debu
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.csproj.CopyComplete
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.dll
 D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.pdb
+C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\bin\Debug\LogicLayer.dll
+C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\bin\Debug\LogicLayer.pdb
+C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\bin\Debug\DalLayer.dll
+C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\bin\Debug\DataMode.dll
+C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\bin\Debug\DalLayer.pdb
+C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\bin\Debug\DalLayer.dll.config
+C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\bin\Debug\DataMode.pdb
+C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.csprojAssemblyReference.cache
+C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.csproj.CopyComplete
+C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.dll
+C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.pdb
