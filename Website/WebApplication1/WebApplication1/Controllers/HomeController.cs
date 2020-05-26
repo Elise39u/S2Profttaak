@@ -48,6 +48,7 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public  ActionResult SafeUser(string username, string password, string password2)
         {
