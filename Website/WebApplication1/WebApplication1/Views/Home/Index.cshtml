@@ -10,6 +10,7 @@
         <input type="password" name="Password" /><br />
         <input type="submit" name="submit" value="submit" />
         <button> Register </button>
+        <input type="button" value="Create" onclick="location.href='@Url.Action("Register")'" />
         @Html.AntiForgeryToken()
     </form>
 </div>
