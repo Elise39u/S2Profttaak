@@ -49,7 +49,7 @@ namespace WebApplication1.Controllers
             return View();
         }
         [HttpPost]
-        public  ActionResult SafeUser(string username, string password, string password2)
+        public  ActionResult Register(string username, string password, string password2)
         {
             UserLogic.RegisterUser(username, password, password2);
             return Redirect("Index");
