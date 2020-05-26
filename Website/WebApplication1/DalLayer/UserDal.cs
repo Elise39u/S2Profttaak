@@ -15,7 +15,7 @@ namespace DalLayer
         public string CheckIfUserExists(string username, string password)
         {
             DALAcces.conn.Open();
-            string query = "Select * FROM user WHERE username = @username AND password = @password";
+            string query = "Select * FROM TowerUser WHERE username = @username AND password = @password";
 
             MySqlCommand command = new MySqlCommand(query, DALAcces.conn);
             command.Parameters.Add(new MySqlParameter("@username", username));
@@ -36,7 +36,7 @@ namespace DalLayer
         {
             DALAcces.conn.Open();
             UserModel data = new UserModel();
-            string query = "Select * FROM user WHERE username = @username";
+            string query = "Select * FROM TowerUser WHERE username = @username";
 
             MySqlCommand command = new MySqlCommand(query, DALAcces.conn);
             command.Parameters.Add(new MySqlParameter("@username", user.Username));
@@ -55,7 +55,7 @@ namespace DalLayer
         public bool RegisterUser(string username, string password)
         {
             bool succesfull = false;
-            string query = "INSERT INTO User(username, password) " +
+            string query = "INSERT INTO TowerUser(username, password) " +
                            "VALUES (@username, @password)";
             DALAcces.conn.Open();
             MySqlCommand command = new MySqlCommand(query, DALAcces.conn);
