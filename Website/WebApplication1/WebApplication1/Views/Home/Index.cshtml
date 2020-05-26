@@ -1,16 +1,25 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿
+@{
+    ViewBag.Title = "Index";
 }
 
+<h2> Welcome </h2>
+
 <div class="row">
-    <form method="post" action="~/Home/CheckUser">
-        <label> Username: </label><br />
-        <input name="Username" type="text" /> <br /><br />
-        <label> Password: </label><br />
-        <input type="password" name="Password" /><br />
-        <input type="submit" name="submit" value="submit" />
-        <!-- <button> Register </button> --> 
-        <input type="button" value="Register" onclick="location.href='@Url.Action("Register")'" />
-        @Html.AntiForgeryToken()
-    </form>
+    <h3>Info over de game</h3>
+    <img class="welcomeImage" src="~/wwwroot/images/startmenu.png"/>
+    <p class="welcomTxt">De game is een tower defence game met als thema een woestijn <br />
+    Het doel van het spel is om tanks te plaatsen en je base te verdedigen tegen crabs <br />
+    Tussen elke wave zit een korte pauze en het spel gaat oneinding door </p> <br /><br /><br />
+    <h3> Layout </h3>
+    <img class="welcomeImage" src="~/wwwroot/images/map.png"/>
+    <p class="welcomTxt"> Het spel heeft een relative simpele layout <br />
+    Op het pad spawnen de enemys a.k.a je crabs en die lopen het pad richting het kristal.<br />
+    Het kristal is je base en moet je verdedigen om te suriven. Dit kan je doen met tanks. <br />
+    Tanks kan je kopen en plaatsen in de map langs het pad om de crabs tegen te houden</p> <br /><br />
+    <h3> Hoe krijg ik de game</h3>
+    <p> Das heel simpel als je al een account heb hoef je alleen maar in te loggen. <br />
+    Nog geen account geen probleem dan hoef je alleen maar te registeren.</p>
+    <input type="button" value="Login" onclick="location.href='@Url.Action("Login")'" />
+    <input type="button" value="Register" onclick="location.href='@Url.Action("Register")'" />
 </div>

@@ -17,6 +17,11 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+        public ActionResult Login()
+        {
+            return View();
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult CheckUser(UserViewModel userViewModel)

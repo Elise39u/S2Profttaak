@@ -53,3 +53,13 @@ input[type=submit]:hover, input[type=button]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
+.welcomeImage {
+    width: 20%;
+    height: 20%;
+    float: left;
+}
+
+.welcomeTxt {
+    font-size: 18px;
+}
