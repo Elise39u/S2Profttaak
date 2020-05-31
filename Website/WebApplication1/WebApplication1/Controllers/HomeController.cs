@@ -60,5 +60,10 @@ namespace WebApplication1.Controllers
             UserLogic.RegisterUser(username, password, password2);
             return Redirect("Index");
         }
+        
+        public ActionResult Download()
+        {
+            return View();
+        }
     }
 }
