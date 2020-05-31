@@ -1,6 +1,7 @@
 ﻿using LogicLayer;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -35,7 +36,7 @@ namespace WebApplication1.Controllers
 
                 if(getUser == "User found in database")
                 {
-                    return View("Start");
+                    return Download();
 
                 }
                 else
@@ -63,7 +64,7 @@ namespace WebApplication1.Controllers
         
         public ActionResult Download()
         {
-            return View();
+            return View("Download");
         }
     }
 }
