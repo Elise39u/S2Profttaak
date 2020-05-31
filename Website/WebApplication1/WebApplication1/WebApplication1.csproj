@@ -141,12 +141,9 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-<<<<<<< HEAD
     <Content Include="wwwroot\images\map.png" />
     <Content Include="wwwroot\images\startmenu.png" />
-=======
     <Content Include="files\Pacman game in c#.zip" />
->>>>>>> ca80352f737951cab2d23fcd41b04db065e978a9
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -172,11 +169,8 @@
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\Start.cshtml" />
     <Content Include="Views\Home\Register.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Home\Index.cshtml" />
-=======
     <Content Include="Views\Home\Download.cshtml" />
->>>>>>> ca80352f737951cab2d23fcd41b04db065e978a9
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
