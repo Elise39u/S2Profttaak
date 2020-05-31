@@ -1,15 +1,3 @@
-D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\LogicLayer.dll
-D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\LogicLayer.pdb
-D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\DalLayer.dll
-D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\DataMode.dll
-D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\DalLayer.pdb
-D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\DalLayer.dll.config
-D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\DataMode.pdb
-D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.csprojAssemblyReference.cache
-D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.csproj.CoreCompileInputs.cache
-D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.csproj.CopyComplete
-D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.dll
-D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.pdb
 C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\bin\Debug\LogicLayer.dll
 C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\bin\Debug\LogicLayer.pdb
 C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\bin\Debug\DalLayer.dll
@@ -22,3 +10,15 @@ C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\obj\
 C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.csproj.CopyComplete
 C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.dll
 C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.pdb
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\LogicLayer.dll
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\LogicLayer.pdb
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\DalLayer.dll
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\DataMode.dll
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\DalLayer.pdb
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\DalLayer.dll.config
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\bin\Debug\DataMode.pdb
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.csprojAssemblyReference.cache
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.csproj.CoreCompileInputs.cache
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.csproj.CopyComplete
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.dll
+D:\Fontys\S2maatwerk\Website project\Website\WebApplication1\LogicLayer\obj\Debug\LogicLayer.pdb
