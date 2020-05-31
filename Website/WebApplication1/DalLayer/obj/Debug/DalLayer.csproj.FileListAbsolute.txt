@@ -122,7 +122,6 @@ C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\DalLayer\bin\De
 C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\DalLayer\bin\Debug\System.Memory.xml
 C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\DalLayer\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\DalLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\DalLayer\obj\Debug\DalLayer.csprojAssemblyReference.cache
 C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\DalLayer\obj\Debug\DalLayer.csproj.CoreCompileInputs.cache
 C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\DalLayer\obj\Debug\DalLayer.csproj.CopyComplete
 C:\Users\Thiso\Source\Repos\S2Profttaak2\Website\WebApplication1\DalLayer\obj\Debug\DalLayer.dll
